@@ -10,9 +10,17 @@
 		185C757E2B610A1A00391B93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C757D2B610A1A00391B93 /* AppDelegate.swift */; };
 		185C75802B610A1A00391B93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C757F2B610A1A00391B93 /* SceneDelegate.swift */; };
 		185C75822B610A1A00391B93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C75812B610A1A00391B93 /* ViewController.swift */; };
-		185C75852B610A1A00391B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185C75832B610A1A00391B93 /* Main.storyboard */; };
 		185C75872B610A1B00391B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185C75862B610A1B00391B93 /* Assets.xcassets */; };
 		185C758A2B610A1B00391B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185C75882B610A1B00391B93 /* LaunchScreen.storyboard */; };
+		185C75962B6133E700391B93 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 185C75952B6133E700391B93 /* Realm */; };
+		185C75982B6133E700391B93 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 185C75972B6133E700391B93 /* RealmSwift */; };
+		185C759B2B6166C400391B93 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C759A2B6166C400391B93 /* RealmManager.swift */; };
+		185C759D2B6166CF00391B93 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C759C2B6166CF00391B93 /* StorageManager.swift */; };
+		185C759F2B616AE200391B93 /* Publication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C759E2B616AE200391B93 /* Publication.swift */; };
+		185C75A12B61720F00391B93 /* PublicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C75A02B61720F00391B93 /* PublicationCell.swift */; };
+		187B79EA2B624D9A0071FE21 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B79E92B624D9A0071FE21 /* HeaderCell.swift */; };
+		187B79EC2B6284A20071FE21 /* AddNewPublicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B79EB2B6284A20071FE21 /* AddNewPublicationController.swift */; };
+		187B79EE2B62A2570071FE21 /* SettupPublication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B79ED2B62A2570071FE21 /* SettupPublication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +28,16 @@
 		185C757D2B610A1A00391B93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185C757F2B610A1A00391B93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		185C75812B610A1A00391B93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		185C75842B610A1A00391B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		185C75862B610A1B00391B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185C75892B610A1B00391B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185C758B2B610A1B00391B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185C759A2B6166C400391B93 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		185C759C2B6166CF00391B93 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		185C759E2B616AE200391B93 /* Publication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publication.swift; sourceTree = "<group>"; };
+		185C75A02B61720F00391B93 /* PublicationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationCell.swift; sourceTree = "<group>"; };
+		187B79E92B624D9A0071FE21 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		187B79EB2B6284A20071FE21 /* AddNewPublicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPublicationController.swift; sourceTree = "<group>"; };
+		187B79ED2B62A2570071FE21 /* SettupPublication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettupPublication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185C75982B6133E700391B93 /* RealmSwift in Frameworks */,
+				185C75962B6133E700391B93 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,53 @@
 		185C757C2B610A1A00391B93 /* InstaSimulatorByKazbek */ = {
 			isa = PBXGroup;
 			children = (
+				185C75992B6166B400391B93 /* StorageManager */,
+				185C75932B610AE200391B93 /* Controller */,
+				185C75922B610ADE00391B93 /* View */,
+				185C75912B610AD300391B93 /* Model */,
 				185C757D2B610A1A00391B93 /* AppDelegate.swift */,
 				185C757F2B610A1A00391B93 /* SceneDelegate.swift */,
-				185C75812B610A1A00391B93 /* ViewController.swift */,
-				185C75832B610A1A00391B93 /* Main.storyboard */,
 				185C75862B610A1B00391B93 /* Assets.xcassets */,
 				185C75882B610A1B00391B93 /* LaunchScreen.storyboard */,
 				185C758B2B610A1B00391B93 /* Info.plist */,
 			);
 			path = InstaSimulatorByKazbek;
+			sourceTree = "<group>";
+		};
+		185C75912B610AD300391B93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				185C759E2B616AE200391B93 /* Publication.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		185C75922B610ADE00391B93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				185C75A02B61720F00391B93 /* PublicationCell.swift */,
+				187B79E92B624D9A0071FE21 /* HeaderCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		185C75932B610AE200391B93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				185C75812B610A1A00391B93 /* ViewController.swift */,
+				187B79EB2B6284A20071FE21 /* AddNewPublicationController.swift */,
+				187B79ED2B62A2570071FE21 /* SettupPublication.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		185C75992B6166B400391B93 /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				185C759A2B6166C400391B93 /* RealmManager.swift */,
+				185C759C2B6166CF00391B93 /* StorageManager.swift */,
+			);
+			path = StorageManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +137,10 @@
 			dependencies = (
 			);
 			name = InstaSimulatorByKazbek;
+			packageProductDependencies = (
+				185C75952B6133E700391B93 /* Realm */,
+				185C75972B6133E700391B93 /* RealmSwift */,
+			);
 			productName = InstaSimulatorByKazbek;
 			productReference = 185C757A2B610A1A00391B93 /* InstaSimulatorByKazbek.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 185C75712B610A1A00391B93;
+			packageReferences = (
+				185C75942B6133E600391B93 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 185C757B2B610A1A00391B93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +188,6 @@
 			files = (
 				185C758A2B610A1B00391B93 /* LaunchScreen.storyboard in Resources */,
 				185C75872B610A1B00391B93 /* Assets.xcassets in Resources */,
-				185C75852B610A1A00391B93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185C759F2B616AE200391B93 /* Publication.swift in Sources */,
+				187B79EE2B62A2570071FE21 /* SettupPublication.swift in Sources */,
 				185C75822B610A1A00391B93 /* ViewController.swift in Sources */,
+				185C75A12B61720F00391B93 /* PublicationCell.swift in Sources */,
+				187B79EC2B6284A20071FE21 /* AddNewPublicationController.swift in Sources */,
+				185C759B2B6166C400391B93 /* RealmManager.swift in Sources */,
+				187B79EA2B624D9A0071FE21 /* HeaderCell.swift in Sources */,
+				185C759D2B6166CF00391B93 /* StorageManager.swift in Sources */,
 				185C757E2B610A1A00391B93 /* AppDelegate.swift in Sources */,
 				185C75802B610A1A00391B93 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +214,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		185C75832B610A1A00391B93 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185C75842B610A1A00391B93 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		185C75882B610A1B00391B93 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,11 +354,13 @@
 				DEVELOPMENT_TEAM = F7NHX5BAFW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InstaSimulatorByKazbek/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Можно ли использовать камеру?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Можно ли использовать микрофон?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +384,13 @@
 				DEVELOPMENT_TEAM = F7NHX5BAFW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InstaSimulatorByKazbek/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Можно ли использовать камеру?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Можно ли использовать микрофон?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +426,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		185C75942B6133E600391B93 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		185C75952B6133E700391B93 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 185C75942B6133E600391B93 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		185C75972B6133E700391B93 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 185C75942B6133E600391B93 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 185C75722B610A1A00391B93 /* Project object */;
 }
